@@ -1,0 +1,14 @@
+md basic_repo
+cd basic_repo
+git init
+copy NUL text.txt
+copy NUL basic.html
+copy NUL style.css
+git add .
+git commit -m "uploaded 3 new files, text,basic,style"
+git remote add origin https://github.com/JGillmore/Basic_Repo.git
+git push origin master
+//updated text and basic
+git add .
+git commit -m "updated text and basic"
+git push origin master
